@@ -10,14 +10,6 @@
 #import "ToolView.h"
 #import "DrawView.h"
 
-//iOS 画板的实现，具有颜色、线宽、橡皮、撤销和清屏功能
-//————
-//完成一个简单地画板，能够实现画壁颜色和线宽的选择，以及橡皮功能，撤销前一步的操作，和清屏功能
-//主要应用MVC模式进行代码架构，每一部分的代码实现思路在各部分的代码前面。
-//————
-//效果图如下：
-//————
-
 /**
  *  控制器实现基本思路：1、添加工具栏和画板
                      2、ToolView中block的定义，colorBlock，widthBlock就是设置drawView的color；eraseBlock就设置其lineWidth和lineColor的具体值；undoBlock，clearBlock调用DrawView的函数
